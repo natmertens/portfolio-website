@@ -2,7 +2,7 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
-* Browsers: last 2 version
+* Browsers: last 4 version
 */
 
 /*
@@ -63,20 +63,6 @@ a:active {
   color: #489c79;
 }
 
-button {
-  border: none;
-  display: inline-block;
-  font-family: inherit;
-  background-color: #48919c;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s opacity;
-  transition: 0.2s opacity;
-}
-
 .button {
   border: none;
   display: inline-block;
@@ -88,10 +74,11 @@ button {
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
+  -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+.button:hover, .button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -144,9 +131,9 @@ button:hover, button:focus, .button:hover, .button:focus {
   text-decoration: none;
 }
 
-.profile, .personal-info {
+section, .profile, .personal-info, .contact-section {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 80px auto;
   text-align: center;
 }
 
@@ -162,6 +149,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 .skill-table {
   margin: 0 auto;
 }
+
 
 .button__secondary {
   background-color: #48799c;
