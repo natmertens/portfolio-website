@@ -75,7 +75,7 @@ a:active {
   color: var(--tertiary-color);
 }
 
-button, .button {
+.button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -88,7 +88,7 @@ button, .button {
   transition: 0.2s opacity;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+.button:hover, .button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
