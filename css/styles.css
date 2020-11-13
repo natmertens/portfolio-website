@@ -73,10 +73,6 @@ a:active {
   color: var(--tertiary-color);
 }
 
-form {
-  padding-left: 20px;
-}
-
 section {
   margin: 0 10px 80px 10px;
   text-align: center;
@@ -144,9 +140,8 @@ section {
 }
 
 .profile, .personal-info, .contact-data {
-  width: 80%;
+  max-width: 65%;
   margin: 80px auto;
-  text-align: center;
 }
 
 .contact-section {
@@ -164,16 +159,24 @@ margin-bottom: 150px;
   border-radius: 50%;
 }
 
+.profile__text {
+  text-align: center;
+}
+
 
 .skill-table {
   margin: 0 auto;
+}
+
+#contact-form {
+  margin: 0 auto;
+  text-align: center;
 }
 
 
 .grid__item {
   display: inline-block;
   width: 33%;
-  background-color: lightgray;
 }
 
 @supports (display: grid) {
