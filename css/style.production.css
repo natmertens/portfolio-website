@@ -147,7 +147,7 @@ section {
 }
 
 .profile {
-  max-width: 65%;
+  max-width: 55%;
   margin-bottom: 100px;
 }
 
@@ -164,7 +164,7 @@ section {
 }
 
 .profile__text {
-  padding: 20px 60px;
+  padding: 20px 100px;
 }
 
 .skill-table {
