@@ -142,6 +142,7 @@ section {
   text-align: center;
 }
 
+
 .profile, .personal-info, .contact-data {
   max-width: 65%;
   margin: 80px auto;
@@ -150,6 +151,7 @@ section {
 .contact-section {
   margin-bottom: 80px;
 }
+
 
 .profile {
 margin-bottom: 150px;
