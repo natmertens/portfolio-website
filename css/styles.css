@@ -140,7 +140,7 @@ section {
 }
 
 .profile, .personal-info, .contact-data {
-  width: 80%;
+  max-width: 65%;
   margin: 80px auto;
 }
 
