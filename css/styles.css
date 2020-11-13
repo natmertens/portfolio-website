@@ -144,17 +144,16 @@ section {
 }
 
 .profile {
-  max-width: 50%;
-  padding: 20px;
+  max-width: 65%;
+  margin-bottom: 100px;
 }
 
 .contact-section {
   margin-bottom: 80px;
 }
 
-
-.profile {
-margin-bottom: 100px;
+.profile__text {
+  padding: 60px;
 }
 
 .profile__portrait {
