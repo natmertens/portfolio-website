@@ -154,6 +154,12 @@ section {
   margin-bottom: 80px;
 }
 
+.hometown-picture {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .profile__portrait {
   float: left;
   width: 250px;
