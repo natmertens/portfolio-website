@@ -291,10 +291,14 @@ section {
           animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
+
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+  .profile__portrait {
+    float: none;
   }
 }
 
