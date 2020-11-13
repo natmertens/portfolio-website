@@ -55,7 +55,8 @@ a:visited {
   color: #337057;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -64,7 +65,7 @@ a:active {
 }
 
 section {
-  margin: 0 10px 80px 10px;
+  margin: 0 10px 80px;
   text-align: center;
 }
 
@@ -83,7 +84,8 @@ section {
   transition: 0.2s opacity;
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -95,7 +97,6 @@ section {
   width: 100%;
   padding: 20px;
 }
-
 
 .page-footer {
   clear: both;
@@ -139,8 +140,9 @@ section {
   text-decoration: none;
 }
 
-
-.profile, .personal-info, .contact-data {
+.profile,
+.personal-info,
+.contact-data {
   max-width: 700px;
   margin: 80px auto;
   text-align: center;
@@ -160,16 +162,16 @@ section {
   text-align: center;
 }
 
+.profile__text {
+  padding: 20px;
+}
+
 .profile__portrait {
   float: left;
   width: 250px;
   margin-right: 40px;
   margin-bottom: 20px;
   border-radius: 50%;
-}
-
-.profile__text {
-  padding: 20px;
 }
 
 .skill-table {
@@ -181,44 +183,45 @@ section {
   text-align: center;
 }
 
-
 .grid__item {
   display: inline-block;
   width: 33%;
 }
 
 @supports (display: grid) {
-.grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-}
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
 
-.grid__item {
-  background-color: lightgray;
-  padding: 15px;
-  width: auto;
-  min-height: auto;
-}
+  .grid__item {
+    background-color: lightgray;
+    padding: 15px;
+    width: auto;
+    min-height: auto;
+  }
 
-.grid__item:last-child {
-  -ms-grid-column: 3;
-  grid-column: 3 / 3;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  grid-row: 1 / 3;
-}
+  .grid__item:last-child {
+    -ms-grid-column: 3;
+    grid-column: 3 / 3;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
+  }
 }
 
 @-webkit-keyframes color-change {
   0% {
-  fill: #edc655;
+    fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -226,11 +229,13 @@ section {
 
 @keyframes color-change {
   0% {
-  fill: #edc655;
+    fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -246,6 +251,7 @@ section {
     -webkit-transform: translate(0, 50px);
             transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
@@ -257,6 +263,7 @@ section {
     -webkit-transform: translate(0, 50px);
             transform: translate(0, 50px);
   }
+
   to {
     -webkit-transform: translate(200px, 50px);
             transform: translate(200px, 50px);
@@ -268,24 +275,24 @@ section {
           animation: 35s cloud-move infinite alternate linear;
 }
 
-
 @-webkit-keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);
             transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
   }
 }
 
-
 @keyframes cloud-move-reverse {
   from {
     -webkit-transform: translate(446px, 48px);
             transform: translate(446px, 48px);
   }
+
   to {
     -webkit-transform: translate(100px, 48px);
             transform: translate(100px, 48px);
@@ -297,12 +304,12 @@ section {
           animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
-
 @media all and (max-width: 500px) {
   .grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .profile__portrait {
     float: none;
   }
@@ -319,10 +326,12 @@ section {
   .grid {
     grid-gap: 10px;
   }
+
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
   h1 {
     font-size: 22px;
   }
