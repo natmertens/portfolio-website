@@ -5,12 +5,11 @@ Secondary Color (Orange): #e0b354;
 */
 
 :root {
-  --primary-color: #48919c;
-  --secondary-color: #48799c;
-  --tertiary-color: #489c79;
+  --primary-color: #3a7e60;
+  --secondary-color: #337057;
+  --tertiary-color: #295744;
   --text-color: #2b2b2b;
   --white: #fff;
-  --dark-gray: #2b2b2b;
   --light-gray: #d3d3d3;
   --border-color: rgba(0, 0, 0, 0.3);
   --primary-animation-color: #edc655;
@@ -51,6 +50,7 @@ h1 {
   font-family: var(--heading-font);
   font-weight: var(--bold-font-weight);
   font-size: 30px;
+  text-align: center;
 }
 
 h2 {
@@ -130,12 +130,15 @@ a:active {
   text-decoration: none;
 }
 
-section, .profile, .personal-info, .contact-section {
+.profile, .personal-info, .contact-section {
   max-width: 700px;
   margin: 80px auto;
   text-align: center;
 }
 
+.profile {
+margin-bottom: 150px;
+}
 
 .profile__portrait {
   float: left;
@@ -148,13 +151,6 @@ section, .profile, .personal-info, .contact-section {
 .skill-table {
   margin: 0 auto;
 }
-
-
-.button__secondary {
-  background-color: var(--secondary-color);
-  color: var(--dark-gray);
-}
-
 
 
 .grid__item {
