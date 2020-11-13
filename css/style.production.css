@@ -137,15 +137,9 @@ section {
 
 
 .profile, .personal-info, .contact-data {
-  max-width: 700px;
-  margin: 80px auto;
-  text-align: center;
-}
-
-
-.profile, .personal-info, .contact-data {
   max-width: 65%;
   margin: 80px auto;
+  text-align: center;
 }
 
 .contact-section {
@@ -164,7 +158,7 @@ margin-bottom: 150px;
   border-radius: 50%;
 }
 
-.profile__text {
+.profile__text, .profile__link {
   text-align: center;
 }
 
