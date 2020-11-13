@@ -73,10 +73,6 @@ a:active {
   color: var(--tertiary-color);
 }
 
-form {
-  padding-left: 20px;
-}
-
 section {
   margin: 0 10px 80px 10px;
   text-align: center;
@@ -170,6 +166,11 @@ margin-bottom: 150px;
 
 .skill-table {
   margin: 0 auto;
+}
+
+#contact-form {
+  margin: 0 auto;
+  text-align: center;
 }
 
 
