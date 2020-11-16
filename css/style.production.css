@@ -312,6 +312,7 @@ section {
 
   .profile__portrait {
     float: none;
+    margin: 0 auto;
   }
 }
 
