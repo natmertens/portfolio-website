@@ -56,7 +56,8 @@ a:visited {
 }
 
 a:hover,
-a:focus {
+a:focus,
+.footer-icon {
   text-decoration: none;
 }
 
@@ -181,6 +182,14 @@ section {
 #contact-form {
   margin: 0 auto;
   text-align: center;
+}
+
+#contact-email,
+#contact-telephone,
+#contact-message {
+  max-width: 300px;
+  padding: 7px;
+  margin: 15px;
 }
 
 .grid__item {
