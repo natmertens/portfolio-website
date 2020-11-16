@@ -184,6 +184,14 @@ section {
   text-align: center;
 }
 
+#contact-email,
+#contact-telephone,
+#contact-message {
+  max-width: 300px;
+  padding: 7px;
+  margin: 15px;
+}
+
 .grid__item {
   display: inline-block;
   width: 33%;
