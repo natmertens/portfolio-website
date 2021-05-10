@@ -176,6 +176,10 @@ section {
   border-radius: 50%;
 }
 
+.screenshot-meet {
+  width: 90%;
+}
+
 .skill-table {
   margin: 0 auto;
 }
