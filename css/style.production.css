@@ -176,8 +176,20 @@ section {
   border-radius: 50%;
 }
 
-.screenshot-meet {
+.screenshot-meet, .screenshot-pokemon-page, .screenshot-movies-react, .screenshot-movies-angular {
   width: 90%;
+  height: 130px;
+}
+
+.screenshot-chat-screen {
+  width: 70%;
+  height: auto;
+}
+
+.tech-item {
+  text-align: center;
+  line-height: 2px;
+  padding: 5px;
 }
 
 .skill-table {
