@@ -186,6 +186,10 @@ section {
   height: auto;
 }
 
+.tech-list {
+  margin-bottom: 30px;
+}
+
 .tech-item {
   text-align: center;
   line-height: 2px;
