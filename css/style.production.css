@@ -178,12 +178,12 @@ section {
 
 .screenshot-meet, .screenshot-pokemon-page, .screenshot-movies-react, .screenshot-movies-angular {
   width: 90%;
-  height: 130px;
 }
 
 .screenshot-chat-screen {
   width: 70%;
-  height: auto;
+  height: 380px;
+  object-fit: contain;
 }
 
 .tech-list {
@@ -241,6 +241,10 @@ section {
     -ms-grid-row-span: 2;
     grid-row: 1 / 3;
   } */
+}
+
+#kanban-link {
+  margin-top: 50px;
 }
 
 @-webkit-keyframes color-change {
