@@ -175,14 +175,22 @@ section {
 
 .screenshot-meet, .screenshot-pokemon-page, .screenshot-movies-react, .screenshot-movies-angular {
   width: 90%;
-  height: 130px;
 }
 
-.screenshot-chat-screen {
+/*.screenshot-chat-screen {
   width: 70%;
   height: 380px;
   object-fit: contain;
+}*/
+
+.screenshots-chat-app {
+  width: 90%;
+  margin: 0 auto;
 }
+
+.screenshot-chat-screen, .screenshot-start-screen {
+  width: 45%;
+  }
 
 .tech-list {
   margin-bottom: 30px;
@@ -221,6 +229,8 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .grid__item {
@@ -305,13 +315,13 @@ section {
 
 @media all and (max-width: 750px) {
   .grid {
-    grid-gap: 20px;
+    grid-gap: 30px;
   }
 
-  .grid__item:last-child {
+  /*.grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
-  }
+  }*/
 
   h1 {
     font-size: 22px;
