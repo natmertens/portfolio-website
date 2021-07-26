@@ -175,6 +175,8 @@ section {
 
 .screenshot-meet, .screenshot-pokemon-page, .screenshot-movies-react, .screenshot-movies-angular {
   width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*.screenshot-chat-screen {
@@ -190,6 +192,8 @@ section {
 
 .screenshot-chat-screen, .screenshot-start-screen {
   width: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   }
 
 .tech-list {
