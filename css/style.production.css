@@ -11,48 +11,66 @@ Primary Color: #05676e;
 Secondary Color (Orange): #e0b354;
 */
 
+:root {
+  --primary-color: #3a7e60;
+  --secondary-color: #337057;
+  --tertiary-color: #295744;
+  --text-color: #2b2b2b;
+  --border-color: rgba(0, 0, 0, 0.3);
+  --primary-animation-color: #edc655;
+  --secondary-animation-color: #fcffad;
+  --tertiary-animation-color: #f76414;
+  --standard-font: "Merriweather", sans-serif;
+  --heading-font: "Lato", sans-serif;
+  --standard-line-height: 1.6;
+  --primary-font-size: 16px;
+  --secondary-font-size: 18px;
+  --standard-font-weight: 400;
+  --bold-font-weight: 700;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
-  font-family: "Merriweather", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #2b2b2b;
+  font-family: var(--standard-font);
+  font-weight: var(--standard-font-weight);
+  font-size: var(--primary-font-size);
+  line-height: var(--standard-line-height);
+  color: var(--text-color);
 }
 
 header {
-  font-size: 18px;
-  line-height: 1.6;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  font-size: var(--secondary-font-size);
+  line-height: var(--standard-line-height);
+  border-bottom: 2px solid var(--border-color);
 }
 
 footer {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: var(--secondary-font-size);
+  line-height: var(--standard-line-height);
 }
 
 h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-family: var(--heading-font);
+  font-weight: var(--bold-font-weight);
   font-size: 30px;
 }
 
 h2 {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-family: var(--heading-font);
+  font-weight: var(--bold-font-weight);
   font-size: 24px;
 }
 
 a {
-  color: #3a7e60;
+  color: var(--primary-color);
 }
 
 a:visited {
-  color: #337057;
+  color: var(--secondary-color);
 }
 
 a:hover,
@@ -62,7 +80,7 @@ a:focus,
 }
 
 a:active {
-  color: #295744;
+  color: var(--tertiary-color);
 }
 
 section {
@@ -74,12 +92,12 @@ section {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #3a7e60;
+  background-color: var(--primary-color);
   color: white;
   text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid var(--border-color);
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;
@@ -178,6 +196,8 @@ section {
 
 .screenshot-meet, .screenshot-pokemon-page, .screenshot-movies-react, .screenshot-movies-angular {
   width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*.screenshot-chat-screen {
@@ -193,6 +213,8 @@ section {
 
 .screenshot-chat-screen, .screenshot-start-screen {
   width: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   }
 
 .tech-list {
@@ -257,29 +279,29 @@ section {
 
 @-webkit-keyframes color-change {
   0% {
-    fill: #edc655;
+    fill: var(--primary-animation-color);
   }
 
   50% {
-    fill: #fcffad;
+    fill: var(--secondary-animation-color);
   }
 
   100% {
-    fill: #f76414;
+    fill: var(--tertiary-animation-color);
   }
 }
 
 @keyframes color-change {
   0% {
-    fill: #edc655;
+    fill: var(--primary-animation-color);
   }
 
   50% {
-    fill: #fcffad;
+    fill: var(--secondary-animation-color);
   }
 
   100% {
-    fill: #f76414;
+    fill: var(--tertiary-animation-color);
   }
 }
 
