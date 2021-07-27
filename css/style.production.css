@@ -48,11 +48,11 @@ h2 {
 }
 
 a {
-  color: #385165;
+  color: #004c4c;
 }
 
 a:visited {
-  color: #3a7e60;
+  color: #006666;
 }
 
 a:hover,
@@ -62,7 +62,7 @@ a:focus,
 }
 
 a:active {
-  color: #295744;
+  color: #008080;
 }
 
 section {
