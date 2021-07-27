@@ -5,9 +5,9 @@ Secondary Color: #e0b354;
 */
 
 :root {
-  --primary-color: #385165;
-  --secondary-color: #3a7e60;
-  --tertiary-color: #295744;
+  --primary-color: #004c4c;
+  --secondary-color: #006666;
+  --tertiary-color: #008080;
   --text-color: #2b2b2b;
   --border-color: rgba(0, 0, 0, 0.3);
   --standard-font: "Merriweather", sans-serif;
