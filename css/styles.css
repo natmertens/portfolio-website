@@ -148,6 +148,15 @@ section {
   text-align: center;
 }
 
+.social-media-handles {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.social-media-handles h4 {
+  margin-bottom: 5px;
+}
+
 .welcome-text {
   max-width: 400px;
   text-align: center;
